@@ -30,6 +30,9 @@
 .pd-15{
     padding: 15px;
 }
+.pd-t-20{
+    padding-top: 20px;
+}
 /* HEADER+NAV */
 header{
     background-color:var(--color-secondary);
@@ -62,4 +65,15 @@ header{
 }
 .card img{
     border-radius: 10px;
+}
+/* ABOUT SECTION */
+#about{
+    background-color: var(--color-primary);
+}
+.download-btn{
+    border: 1px solid var(--color-light);
+    text-decoration: none;
+    color: var(--color-light);
+    padding: 6px;
+    
 }
