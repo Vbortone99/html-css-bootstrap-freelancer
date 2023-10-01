@@ -1,0 +1,20 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COLORS PALETTE */
+:root{
+    --color-light:#ffffff;
+    --color-dark:#000000;
+    --color-primary:#1abc9c;
+    --color-secondary:#2c3e50;
+    --color-tertiary:#3a546d;
+    --color-bg-card-1:#ba4b63;
+    --color-bg-card-2:#1ea4b6;
+    --color-bg-card-3:#140f0f;
+    --color-bg-card-4:#1c83c1;
+    --color-bg-card-5:#0e38b5;
+    --color-bg-card-6:#ccb2a3;
+}
