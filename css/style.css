@@ -39,7 +39,27 @@ header{
     color: var(--color-light);
     padding:10px;
 }
+
+/* START SECTION */
+.start{
+    background-color: var(--color-primary);
+    padding-bottom: 30px;
+}
+.start-btn a{
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 1.5em;
+}
+.top-start{
+    max-width: 20%;
+}
+.top-start img{
+    width: 100%;
+}
 /* CARDS SECTION */
+#portfolio{
+    padding-top: 20px;
+}
 .card img{
     border-radius: 10px;
 }
