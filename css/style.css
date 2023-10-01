@@ -27,6 +27,19 @@
 .mt-20{
     margin-top: 20px;
 }
-.col img{
+.pd-15{
+    padding: 15px;
+}
+/* HEADER+NAV */
+header{
+    background-color:var(--color-secondary);
+}
+.nav-btn{
+    text-decoration: none;
+    color: var(--color-light);
+    padding:10px;
+}
+/* CARDS SECTION */
+.card img{
     border-radius: 10px;
 }
