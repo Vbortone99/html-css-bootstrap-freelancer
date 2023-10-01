@@ -18,3 +18,13 @@
     --color-bg-card-5:#0e38b5;
     --color-bg-card-6:#ccb2a3;
 }
+/* DEBUG */
+.debug{
+    border: 2px solid black;
+}
+.debug-2{
+    border: 2px solid red;
+}
+.debug-3{
+    border: 2px solid blue;
+}
