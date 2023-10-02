@@ -33,6 +33,19 @@
 .pd-t-20{
     padding-top: 20px;
 }
+.hr-divider-white{
+    /* content: "fa-star"; */
+    border: 2px solid white;
+    width: 100px;
+}
+.hr-divider-blue{
+    /* content: "fa-star"; */
+    border: 2px solid;
+    width: 100px;
+}
+.fa-star{
+    padding: 0px 10px;
+}
 /* HEADER+NAV */
 header{
     background-color:var(--color-secondary);
@@ -42,7 +55,9 @@ header{
     color: var(--color-light);
     padding:10px;
 }
-
+nav a:hover{
+    color: var(--color-primary);
+}
 /* START SECTION */
 .start{
     background-color: var(--color-primary);
@@ -52,6 +67,10 @@ header{
     text-decoration: none;
     color: var(--color-light);
     font-size: 1.5em;
+}
+.start-btn a:hover{
+    text-decoration: underline;
+    text-shadow: 0px 0px 2px var(--color-light);
 }
 .top-start{
     max-width: 20%;
@@ -111,6 +130,14 @@ input[type=textarea] {
     border-bottom: 2px solid #b6b6b6;
     border-radius: 0px;
   }
+  input[type=submit] {
+    border: none;
+    border-radius: 6px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    padding: 4px 10px;
+    margin-top: 10px;
+  }
 /* ABOUT SECTION */
 #about{
     background-color: var(--color-primary);
@@ -128,6 +155,20 @@ input[type=textarea] {
 .bootstrap{
     color: var(--color-primary);
 }
+.fa-brands{
+    font-weight: 400;
+    font-size: 1.5em;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px 4px;
+}
+/* .location-middle i{
+    font-size:1.5em;
+    border: 1px solid var(--color-light);
+    border-radius: 50%;
+    padding: 10px;
+} */
 /* FOOTER */
 footer{
     background-color: var(--color-secondary);
