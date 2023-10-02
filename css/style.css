@@ -64,7 +64,28 @@ header{
     padding: 20px;
 }
 .card img{
-    border-radius: 10px;
+    border-radius: 10px   
+}
+.card{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.card:hover:after{
+    content: "+";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #20c9967b;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+
 }
 /* CONTACT SECTION */
 #contact-me{
